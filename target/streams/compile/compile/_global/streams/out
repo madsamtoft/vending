@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mads/Desktop/Git/2.sem/02139/Projects/vending/src/main/scala/VendingMachine.scala:18:19: not found: type VendingMachineIo[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO(new VendingMachineIo)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mads/Desktop/Git/2.sem/02139/Projects/vending/src/main/scala/VendingMachine.scala:54:19: not found: type VendingMachineIo[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO(new VendingMachineIo)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

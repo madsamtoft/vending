@@ -1,0 +1,29 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"chisel3.experimental.EnumAnnotations$EnumDefAnnotation",
+    "typeName":"FSM$State",
+    "definition":{
+      "coin5":3,
+      "releaseCan":7,
+      "coin2":2,
+      "nextItem":5,
+      "idle":0,
+      "alarm":6,
+      "buy":4,
+      "txt":1
+    }
+  },
+  {
+    "class":"chisel3.experimental.EnumAnnotations$EnumComponentAnnotation",
+    "target":"VendingMachine.FSM.stateReg",
+    "enumTypeName":"FSM$State"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

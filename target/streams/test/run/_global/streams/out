@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module VendingMachine]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.seg <= mux(fsm.io.idleScreen, txtController.io.seg, mux(fsm.io.alarm, mux(_T_2, mux(_T, UInt<6>("h3f"), VOID), mux(_T_3, sevSegController.io.seg, mux(_T, UInt<6>("h3f"), VOID))), sevSegController.io.seg))[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module VendingMachine]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.an <= mux(fsm.io.idleScreen, txtController.io.an, mux(fsm.io.alarm, mux(_T_2, UInt<1>("h0"), mux(_T_3, sevSegController.io.an, mux(_T, UInt<1>("h0"), VOID))), sevSegController.io.an))[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 2 errors detected![0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mrun[0m) firrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module VendingMachine]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.seg <= mux(fsm.io.idleScreen, txtController.io.seg, mux(fsm.io.alarm, mux(_T_2, mux(_T, UInt<6>("h3f"), VOID), mux(_T_3, sevSegController.io.seg, mux(_T, UInt<6>("h3f"), VOID))), sevSegController.io.seg))[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module VendingMachine]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.an <= mux(fsm.io.idleScreen, txtController.io.an, mux(fsm.io.alarm, mux(_T_2, UInt<1>("h0"), mux(_T_3, sevSegController.io.an, mux(_T, UInt<1>("h0"), VOID))), sevSegController.io.an))[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 2 errors detected![0m
